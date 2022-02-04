@@ -84,21 +84,30 @@ span.icon-bar { /* Button lines*/
 
 @media (max-width: 767px) {
 	
-	#logo-img{
-		margin: 15px 20px 15px 30px;
-
-	}
-
 	#collapsable-nav {
 		background-color: #F7E18F;
 	}
+
+	.navbar-brand {
+		padding-top: 10px;
+		height: 80px;
+	}
+
+	
+	.navbar-brand p {
+		margin-top: 12px;
+	}
+
+	.navbar-brand p img {
+		height: 60px;
+	}
+
 
 }
 
 /** Body **/
 
 .container-fluid  {
-	
 	margin: 20px 20px 20px 20px;
 	height: 1000px;
 	position: absolute;
